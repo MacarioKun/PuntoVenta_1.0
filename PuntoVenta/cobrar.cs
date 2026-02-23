@@ -158,7 +158,7 @@ namespace PuntoVenta
             PrintDocument pd = new PrintDocument();
             pd.PrintPage += new PrintPageEventHandler(DibujarTicket);
 
-            // pd.PrinterSettings.PrinterName = "NombreDeTuImpresoraTermica"; // Descomenta esto para usar una impresora específica
+            // pd.PrinterSettings.PrinterName = "ImpresoraTermica"; 
 
             try
             {
